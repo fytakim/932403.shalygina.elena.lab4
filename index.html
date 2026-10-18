@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио Елены Шалыгиной — фотографа и визуального сторителлера: навыки, фотопроекты и параметры съёмки.">
+  <title>О себе - Елена Шалыгина</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    aside a { color: #164f83; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Елена Шалыгина - О себе</h1>
+    <div class="photo">
+      <img src="images/avatar.jpg" alt="Портрет Елены" width="150" height="150">
+      <span class="photo-label" style="z-index: 10;">Фото</span>
+    </div>
+  </header>
+
+  <nav aria-label="Навигация по сайту">
+    <a href="#skills">Навыки</a>
+    <a href="#direction">Направление</a>
+    <a href="#projects">Фотопроекты</a>
+    <a href="#camera-settings">Настройки съёмки</a>
+    <a href="#contact">Обратная связь</a>
+  </nav>
+
+  <main>
+    <section id="skills">
+      <h2>Навыки</h2>
+      <ul>
+        <li>Композиция и кадрирование</li>
+        <li>Работа со студийным светом</li>
+        <li>Постобработка и ретушь</li>
+      </ul>
+    </section>
+
+    <aside id="direction">
+      <p>Любимое направление: стрит-фотография. <a href="#projects">Посмотреть фотопроекты</a></p>
+    </aside>
+
+    <section id="projects">
+      <h2>Фотопроекты</h2>
+      <div class="project-list">
+        <article class="project-card">
+          <img class="project-preview" src="images/project-city.jpg" alt="Ночной канал в центре Осаки: вдоль воды горят неоновые вывески и огни высотных зданий" width="900" height="600">
+          <div class="project-body">
+            <h3>Ритмы мегаполиса</h3>
+            <p class="project-location">Локация: Осака, Япония</p>
+            <p>Динамичная стрит-серия о ритме большого города, неоновых огнях и ночном свете.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="project-preview" src="images/project-portrait.jpg" alt="Крупный портрет молодой женщины с вьющимися волосами в мягком золотистом свете" width="900" height="600">
+          <div class="project-body">
+            <h3>Лица эпохи</h3>
+            <p class="project-location">Локация: Анкара, Турция</p>
+            <p>Серия психологических портретов с упором на естественные эмоции и мягкий студийный свет.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img class="project-preview" src="images/project-nature.jpg" alt="Закат над заснеженными сопками Хибин в розовой дымке" width="900" height="600">
+          <div class="project-body">
+            <h3>Природа Севера</h3>
+            <p class="project-location">Локация: Мурманская область</p>
+            <p>Холодные пейзажи, текстура заснеженных скал и мягкий свет полярного заката.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="camera-settings">
+      <h2>Настройки съёмки</h2>
+      <div class="settings-grid">
+        <article class="setting-item">
+          <span class="setting-icon" aria-hidden="true">☀️</span>
+          <h3>Чувствительность</h3>
+          <p class="setting-value">ISO 100–400</p>
+          <p class="setting-desc">Минимальный уровень цифрового шума и максимальная детализация кадров при дневном свете.</p>
+        </article>
+
+        <article class="setting-item">
+          <span class="setting-icon" aria-hidden="true">⏱️</span>
+          <h3>Выдержка</h3>
+          <p class="setting-value">1/500 сек</p>
+          <p class="setting-desc">Фиксация быстрых движений людей и транспорта в стрит-фотографии без смаза.</p>
+        </article>
+
+        <article class="setting-item">
+          <span class="setting-icon" aria-hidden="true">🔘</span>
+          <h3>Диафрагма</h3>
+          <p class="setting-value">f/1.8 – f/2.8</p>
+          <p class="setting-desc">Размытие заднего плана, красивое боке и концентрация внимания на главном объекте съёмки.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Обратная связь</h2>
+      <form action="#" method="post">
+        <label for="name">Имя</label>
+        <input id="name" type="text" name="name" placeholder="Введите ваше имя">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Введите ваш email">
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" placeholder="Введите ваше сообщение" rows="4"></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Елена Шалыгина</p>
+  </footer>
+</body>
+</html>
