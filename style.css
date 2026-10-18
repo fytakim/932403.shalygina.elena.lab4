@@ -172,6 +172,12 @@ aside a:hover {
   margin: 0;
 }
 
+.analysis-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 /* Настройки съёмки (CSS Grid) */
 .settings-grid {
   display: grid;
